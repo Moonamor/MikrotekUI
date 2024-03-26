@@ -1,0 +1,93 @@
+body,html{
+    /* background-blend-mode: color; */
+    margin: 0px;
+    direction: rtl;
+    background-repeat: no-repeat;
+    color: #5f5f5f;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.roww{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    color: #ffffff;
+    text-align: center;
+}
+h5{
+    color: #ffffff;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: unset; 
+}
+a:hover{
+    color: unset;
+}
+#news{
+    background-color: #f8f8ff5b;
+    margin: 0px auto !important;
+    text-align: center;
+}
+.bgimg{
+
+	background-size:cover;
+	background-position:center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+.ustimg{
+    /* background-image: url("../imgs/hero.jpg"); */
+    background-color: rgba(238, 238, 238, 0.692);
+}
+.font-sans{
+    font-family: sans-serif;
+}
+.font-Georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.offcanvasstyle{
+    border-radius: 30px 30px 0px 0px;
+    background-color: #ffffffbe;
+}
+.radius{
+    border-radius: 20px;
+    
+}
+.border{
+    border: solid black 2px;
+    
+}
+.makeCenter{
+    margin: 0px auto;
+    display: inherit;
+}
+.rtl{
+    direction: rtl !important;
+}
+.makeimgasionc{
+    border-radius:50rem!important;
+    height: 70px;
+}
+.makeimgasionc-lg{
+    border-radius:50rem!important;
+    height: 90px;
+}
+.font-sm{
+    font-size: 1em !important;
+}
+.font-md{
+    font-size: 1.5em !important;
+}
+.font-lg{
+    font-size: 2em !important;
+}
+/* #Ad{
+    max-width: 70%;
+} */
